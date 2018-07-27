@@ -83,7 +83,11 @@ body {
 }
 
 .player__controls > * {
-  flex:1;
+  flex:3;
+}
+
+input[name="volume"]{
+  flex: 1;
 }
 
 .progress {
@@ -101,7 +105,7 @@ body {
   width:50%;
   background:#ffc600;
   flex:0;
-  flex-basis:50%;
+  flex-basis:0%;
 }
 
 /* unholy css to style input type="range" */
